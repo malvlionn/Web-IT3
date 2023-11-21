@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Website Layout</title>
+<link href="csslayoutit3_Malvin17.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico">
+<style>
+    .leftcolumn h2{
+        text-align: left;
+    }
+</style>
+</head>
+<body>
+<header class="head">
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Informatika
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="tikcss.html">Penggunaan CSS pada HTML</a>
+            <a href="tiklinklist.html">Pembuatan Link dan List pada HTML</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Ekonomi dan Akuntansi
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="jurnalumum.html">Jurnal Umum</a>
+            <a href="inflasiindex.html">Inflasi dan Indeks Harga</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Matematika Wajib
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="statistika.html">Statistika</a>
+            <a href="deretbil.html">Deret Bilangan</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Agama
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="otonom.html">Kebebasan dan Tanggung Jawab</a>
+            <a href="kerajaanallah.html">Kerajaan Allah</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">PKN
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="sistempkn.html">Sistem dan Dinamika Demokrasi Pancasila</a>
+            <a href="hak.html">Hak dan Kewajiban</a>
+            </div>
+        </div>
+        <a href="saya.html">Tentang Saya</a>
+    </nav>
+</header>
+
+<div class="header">
+</div>
+
+<div class="row">
+
+    <div class="leftcolumn">
+        <div class="card">
+            <h2 style="text-align: center; font-size: 50px;">Deret Bilangan</h2>
+                <br>
+                <img src="deretbil.png" width="1000" height="300">
+                <p class="tengah"><b>Sumber : <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.houseofmath.com%2Fencyclopedia%2Fnumbers-and-quantities%2Fnumbers%2Fsequences-and-series%2Fsequences%2Fhow-do-arithmetic-sequences-work&psig=AOvVaw2pieMsixXlgiRtgglUqtqF&ust=1695355063586000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNDFxfjnuoEDFQAAAAAdAAAAABAD">House of Math</a></b></a></p>
+                <br>
+                <ol>
+                    <h2><b>Apa Itu Baris dan Deret Aritmatika?</b></h2><br>
+                    <li>Pola barisan terdiri dari dua, yaitu aritmatika dan geometri. Baris aritmatika adalah barisan dari bilangan-bilangan yang memiliki selisih/beda yang tetap.
+                        Sedangkan, deret aritmatika adalah jumlah <i>n</i> suku pertama dari barisan aritmatika.</li><br>
+                    <h2><b>Rumus Barisan dan Deret Aritmatika</b></h2>
+                        <ol type="a"><br><br>
+                            <h3><b>Menentukan suku ke-<i>n</b></h3></i><br>
+                            <b>U<sub>n</sub> = a + (n-1) * b</b></li><br>
+                            Keterangan :<br>
+                            U<sub>n</sub> : Suku ke-<i>n</i><br>
+                            a : Suku pertama<br>
+                            n : Posisi suku (suku ke-5, berarti n-nya 5)<br>
+                            b : Beda/selisih<br><br><br>
+                            <h3><b>Menentukan jumlah <i>n</i> suku pertama</b></h3><br><br>
+                            <b>S<sub>n</sub> = <sup>n</sup>&frasl;<sub>2</sub>* (a + U<sub>n</sub>)</b></li><br>
+                            Keterangan :<br>
+                            S<sub>n</sub> : Jumlah <i>n</i> suku pertama<br>
+                            n : Posisi suku (suku ke-5, berarti n-nya 5)<br>
+                            a : Suku pertama <br>
+                            U<sub>n</sub> : Suku ke-n (jika ingin mencari 5 suku pertama, maka U<sub>n</sub> adalah U<sub>5</sub>)<br><br><br>
+                        </ol>
+                    <h2><b>Apa Itu Baris dan Deret Geometri?</b></h2><br>
+                    <li>Baris geometri adalah barisan di mana dua suku yang berurutan dalam barisan tersebut memiliki perbandingan yang sama. Perbandingan ini disebut sebagai rasio (r).
+                        Sama seperti aritmatika, deret geometri adalah penjumlahan <i>n</i> suku pertama dari barisan geometri tersebut.</li><br>
+                    <h2><b>Rumus Barisan dan Deret Geometri</b></h2>
+                        <ol type="a"><br><br>
+                            <h3><b>Menentukan suku ke-<i>n</i></b></h3><br>
+                            <b>U<sub>n</sub> = a * r<sup>n-1</sup></b></li><br>
+                            Keterangan :<br>
+                            U<sub>n</sub> : Suku ke-<i>n</i><br>
+                            a : Suku pertama<br>
+                            r : Rasio<br>
+                            n : Posisi suku (suku ke-5, berarti n-nya 5)<br><br><br>
+                            <h3><b>Menentukan jumlah <i>n</i> suku pertama</h3></b><br>
+                            <b>S<sub>n</sub> = <sup>a * (1 - r<sup>n</sup>)&frasl;<sub>1-r</sub> untuk r < 1</b><br>
+                            <br>atau<br>
+                            <b>S<sub>n</sub> = <sup>a * (r<sup>n</sup> - 1)&frasl;<sub>r-1</sub> untuk r > 1</b><br>
+                        </ol>
+                    </div>
+                </div>
+                
+                    <div class="rightcolumn">
+                        <h2>Tronic!</h2>
+                        <img src="tronic.jpeg" height="400px" width="300px">
+                        <h2>Temukan di Toko Terdekat!</h2>
+                    </div>
+                </div>                    
+                    <div class="footer">
+                        <p>Malvin Lionard INF3/17</p>
+                    </div>
+                </body>
+                </html>
